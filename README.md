@@ -19,11 +19,14 @@ Here we synthesize the logic with a certain specific library for 180nm technolog
 
 
 
-   ### Part 2: Static Timing Analysis with Synopsys PrimeTime
+## Part 2: Static Timing Analysis with Synopsys PrimeTime
 
 •  Timing analysis is to check the timing requirement of the circuit. You can do timing analysis at different design stages - pre-layout with wire-load models or post-layout with actual wires.
 
 • PrimeTime® (PT) is the static timing analysis (STA) tool from Synopsys. It is the most widely used STA engine.
 
 • Though the Design compiler has its own timing engine, it cannot come close to Primetime's accuracy. Moreover, primetime can also consider signal integrity effects like coupling noise due to cross-talk and analysis of complex interconnect structures.  
+
+## Part 3 : Automatic Place and Route with Cadence Innovus
+
 
